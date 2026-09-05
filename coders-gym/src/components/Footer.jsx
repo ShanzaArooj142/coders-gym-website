@@ -4,8 +4,8 @@ import { HiLightningBolt } from 'react-icons/hi';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#111111] text-gray-400 font-sans border-t border-gray-800">
-      <div className="max-w-7xl mx-auto px-6 py-12">
+    <footer className="bg-[#0b1220] text-gray-400 font-sans border-t border-gray-800">
+      <div className="max-w-7xl mx-auto px-6 py-10 ">
         <div className="flex flex-row gap-3 ml-30 mr-30">
           
           <div className="flex-1">
@@ -41,7 +41,7 @@ const Footer = () => {
             <h3 className="text-white font-semibold text-2xl tracking-wide mb-4">
               Company
             </h3>
-            <ul className="flex flex-col gap-2.5 text-md">
+            <ul className="flex flex-col gap-3 text-md">
               <li><a href="#services" className="hover:text-white transition-colors">Our Services</a></li>
               <li><a href="#contact" className="hover:text-white transition-colors">Contact</a></li>
               <li><a href="#privacy" className="hover:text-white transition-colors">Privacy Policy</a></li>
