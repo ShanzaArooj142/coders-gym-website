@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div id='home'
       style={{ backgroundImage: "url('/bg.webp')" }}
-      className="h-200 w-full bg-cover bg-center bg-no-repeat"
+      className="h-190 w-full bg-cover bg-center bg-no-repeat"
     >
       <Navbar />
       <div className="mx-18 flex items-center justify-between">
@@ -23,7 +23,7 @@ const Home = () => {
           </button>
         </div>
         <div className="mt-20 mr-10">
-          <img src="/img1.webp" alt="Gym" className="w-[450px] h-[500px] object-contain" />
+          <img src="/img1.webp" alt="" className="w-130 h-125 object-contain" />
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaDumbbell } from "react-icons/fa";
+import { FaDumbbell,FaBicycle,FaRunning,FaHeartbeat } from "react-icons/fa";
 
 const Products = () => {
   return (
@@ -24,7 +24,7 @@ const Products = () => {
 
        {/* Card 2 */}
        <div className="bg-[#0b1220] text-white w-65 rounded-xl flex flex-col items-center text-center px-6 py-10 transition-transform duration-300 hover:scale-105 cursor-pointer">
-        <p className="text-4xl "><FaDumbbell  /></p>
+        <p className="text-4xl "><FaBicycle /></p>
         <h2 className="text-2xl font-bold mt-5 ">Exercise Bike</h2>
         <p className="text-sm leading-5 mt-2">Great for cardio workouts and endurance training.</p>
         <p className="text-sm leading-5 mt-2">
@@ -34,7 +34,7 @@ const Products = () => {
 
        {/* Card 3 */}
        <div className="bg-[#0b1220] text-white w-65 rounded-xl flex flex-col items-center text-center px-6 py-10 transition-transform duration-300 hover:scale-105 cursor-pointer">
-        <p className="text-4xl "><FaDumbbell  /></p>
+        <p className="text-4xl "><FaRunning /></p>
         <h2 className="text-2xl font-bold mt-5 ">Treadmill</h2>
         <p className="text-sm leading-6 mt-2">Ideal for running, jogging, and burning calories.</p>
         <p className="text-sm leading-6 mt-2">
@@ -44,7 +44,7 @@ const Products = () => {
 
        {/* Card 4 */}
        <div className="bg-[#0b1220] text-white w-65 rounded-xl flex flex-col items-center text-center px-6 py-10 transition-transform duration-300 hover:scale-105 cursor-pointer">
-        <p className="text-4xl "><FaDumbbell  /></p>
+        <p className="text-4xl "><FaHeartbeat /></p>
         <h2 className="text-xl font-bold mt-5 ">Heart Rate Monitor</h2>
         <p className="text-sm leading-6 mt-2">Helps track your heart rate and workouts.</p>
         <p className="text-sm leading-5 mt-2">
