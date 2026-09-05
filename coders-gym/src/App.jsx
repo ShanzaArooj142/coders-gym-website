@@ -19,7 +19,7 @@ const App = () => {
     <div className='flex flex-row gap-8 ml-30 mr-30 '>
     <Programs
       icon={<FaDumbbell  />}
-      heading="Strength Training"
+      heading={<>Strength <br /> Training</>}
      
     paragraph={
      <>Build muscle and <br /> improve endurance <br /> with our guided <br /> strength workouts.</>
@@ -28,7 +28,7 @@ const App = () => {
 
     <Programs
       icon={<FaBicycle />}
-      heading="Cardio Workouts"
+      heading={<>Cardio <br /> Workouts</>}
        paragraph={
      <>Boost your heart <br /> health with our <br /> high-energy cardio <br /> sessions. </>
     }
@@ -36,15 +36,15 @@ const App = () => {
 
      <Programs
       icon={ <FaHeartbeat/>}
-      heading="Heart Health"
-       paragraph={
+      heading={<>Heart Health</>}
+      paragraph={
      <>Monitor your fitness<br /> progress and stay in <br />top condition.</>
     }
     />
 
     <Programs
       icon={<FaRunning />}
-      heading="Endurance Training"
+      heading= {<>Endurance  <br /> Training</>}
        paragraph={
      <>Improve your <br /> stamina with expert-  <br /> designed endurance <br />routines. </>
     }
