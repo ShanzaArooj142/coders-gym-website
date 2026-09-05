@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div id='home'
       style={{ backgroundImage: "url('/bg.webp')" }}
-      className="h-190 w-full bg-cover bg-center bg-no-repeat"
+      className="h-200 w-full bg-cover bg-center bg-no-repeat"
     >
       <Navbar />
       <div className="mx-18 flex items-center justify-between">
