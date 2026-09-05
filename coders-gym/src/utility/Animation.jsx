@@ -51,3 +51,5 @@ export const SlideRight = (delay) => {
     },
   };
 };
+
+

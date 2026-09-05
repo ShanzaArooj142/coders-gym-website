@@ -1,14 +1,32 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { SlideRight } from "../utility/Animation";
+import { SlideLeft } from "../utility/Animation";
 import { FaDumbbell,FaBicycle,FaRunning,FaHeartbeat } from "react-icons/fa";
 
 const Products = () => {
   return (
     <div id="products" className="py-10 px-10">
-      <h1 className="text-5xl font-bold text-[#030d28] text-center mt-10">
-        What We Offer For You
-      </h1>
+      <motion.h1
+        variants={SlideRight(0.8)}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
       
-      <div className="flex justify-between items-center mt-20 ml-10 mr-10">
+      className="text-5xl font-bold text-[#030d28] text-center mt-10">
+        What We Offer For You
+      </motion.h1>
+      
+      <motion.div
+        variants={SlideLeft(0.8)}
+          initial="hidden"
+          whileInView="visible"
+         viewport={{ once: true }}
+      
+      
+      
+      
+      className="flex justify-between items-center mt-20 ml-10 mr-10">
       
        {/* Card 1 */}
        <div className="bg-[#0b1220] text-white w-65  rounded-xl flex flex-col items-center text-center px-6 py-10  cursor-pointer  hover:bg-white  duration-300 ease-in-out hover:text-black shadow-xl transition-all  hover:-translate-y-2 hover:scale-104 hover:shadow-2xl">
@@ -52,7 +70,7 @@ const Products = () => {
         </p>
        </div>
 
-      </div>
+      </motion.div>
     </div>
   );
 };
