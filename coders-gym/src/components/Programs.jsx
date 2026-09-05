@@ -4,28 +4,14 @@ const Programs = ({icon,heading,paragraph}) => {
   return (
     <div id='programs' className='bg-white py-10'>
        
-      <div>
-     {/*} <div className='border-t-6 border-t-amber-600 pt-4 h-80 w-57 rounded-xl bg-gray-900  text-white mt-17 cursor-pointer  duration-300 ease-in-out hover: shadow-xl transition-all  hover:-translate-y-2 hover:scale-104 hover:shadow-2xl'>
+     <div className='border-t-6 border-t-amber-600 pt-6 h-80 w-57 rounded-xl bg-gray-900 text-white  mt-17 cursor-pointer duration-300 ease-in-out transition-all  hover:-translate-y-2 hover:scale-105 hover:shadow-2xl flex flex-col items-center text-center gap-y-4'>
     
-        <p className='text-5xl ml-22 mt-6 mb-4 text-orange-500'>{icon}</p>
-        <h1 className='ml-18 font-semibold text-2xl'>{heading}</h1>
-        <p className='mt-5 ml-12 mr-4 text-base'>{paragraph}</p>
-     </div>*/}
-
-     
-<div className='border-t-6 border-t-amber-600 pt-6 h-80 w-57 rounded-xl bg-gray-900 text-white mt-17 cursor-pointer duration-300 ease-in-out transition-all  hover:-translate-y-2 hover:scale-105 hover:shadow-2xl flex flex-col items-center text-center gap-y-4'>
-    
-    {/* The icon, centered automatically by the flex column */}
-    <p className='text-5xl text-orange-500'>{icon}</p>
-    
-    {/* The heading, centered */}
-    <h1 className='font-semibold text-2xl'>{heading}</h1>
-    
-    {/* The paragraph, centered and using its original line breaks */}
-    <p className='text-base'>{paragraph}</p>
- </div>
+      <p className='text-5xl text-orange-500'>{icon}</p>
+      <h1 className='font-semibold text-2xl'>{heading}</h1>
+     <p className='text-base'>{paragraph}</p>
      </div>
     </div>
+  
   )
 }
 
