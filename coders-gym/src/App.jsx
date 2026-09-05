@@ -13,8 +13,8 @@ const App = () => {
      
      <Home/>
      <Products/>
-     <Programs/>
      <Blogs/>
+     <Programs/>
      <Offers/>
      <Footer/>
     </div>
