@@ -2,10 +2,10 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className="pt-6 mx-20">
+    <div className="pt-6 mx-10 overflow-hidden">
       <nav className="flex items-center justify-between">
         <div className="flex items-center">
-          <img src="/logo.svg" alt="" className="h-8 w-8" />
+          <img src="/logo.svg" alt="" className="h-8 w-8 " />
           <h1 className="uppercase font-bold text-2xl ml-4">
             Coders <span className="text-[#FF8901]">Gym</span>
           </h1>

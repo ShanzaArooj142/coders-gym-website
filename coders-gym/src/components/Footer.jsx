@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
 
           <div className="flex-1 ml-5">
-            <h3 className="text-white font-semibold text-2xl tracking-wide mb-4 ">
+            <h3 className="text-white font-semibold text-xl tracking-wide mb-4 ">
               Important Links
             </h3>
             <ul className="flex flex-col gap-3 text-md">
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
 
           <div className="flex-1 ml-5">
-            <h3 className="text-white font-semibold text-2xl tracking-wide mb-4">
+            <h3 className="text-white font-semibold text-xl tracking-wide mb-4">
               Company
             </h3>
             <ul className="flex flex-col gap-3 text-md">
@@ -49,14 +49,14 @@ const Footer = () => {
           </div>
 
           <div className="flex-1">
-            <h3 className="text-white font-semibold text-2xl tracking-wide mb-4">
+            <h3 className="text-white font-semibold text-xl tracking-wide mb-4">
               Resources
             </h3>
             <ul className="flex flex-col gap-3 text-sm">
-              <li><a href="#blog" className="hover:text-white transition-colors">Blog</a></li>
-              <li><a href="#tutorials" className="hover:text-white transition-colors">Tutorials</a></li>
-              <li><a href="#faqs" className="hover:text-white transition-colors">FAQs</a></li>
-              <li><a href="#support" className="hover:text-white transition-colors">Support</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
+              <li><a href="#t" className="hover:text-white transition-colors">Tutorials</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">FAQs</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Support</a></li>
             </ul>
           </div>
 

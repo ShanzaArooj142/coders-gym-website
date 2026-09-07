@@ -6,14 +6,14 @@ import { FaDumbbell,FaBicycle,FaRunning,FaHeartbeat } from "react-icons/fa";
 
 const Products = () => {
   return (
-    <div id="products" className="py-10 px-10">
+    <div id="products" className="py-10 px-10 overflow-hidden">
       <motion.h1
         variants={SlideRight(0.8)}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
       
-      className="text-5xl font-bold text-[#030d28] text-center mt-10">
+      className="text-5xl font-bold text-[#030d28] text-center mt-10 font-serif">
         What We Offer For You
       </motion.h1>
       

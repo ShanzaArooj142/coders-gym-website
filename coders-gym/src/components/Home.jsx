@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div id='home'
       style={{ backgroundImage: "url('/bg.webp')" }}
-      className="h-190 w-full bg-cover bg-center bg-no-repeat px-1"
+      className="h-190 w-full bg-cover bg-center bg-no-repeat  "
     >
       <Navbar />
       <div className="mx-10 flex items-center justify-between">
@@ -42,13 +42,13 @@ const Home = () => {
           whileInView="visible"
          viewport={{ once: true }}
 
-          className="mt-5 text-2xl font-semibold h-12 w-38 rounded-sm bg-[#FF8901]">
+          className="mt-5 text-2xl font-semibold h-12 w-38 rounded-sm bg-[#FF8901] cursor-pointer">
             Order Now
           </motion.button>
         </div>
 
         <div className="mt-40 mr-10">
-          <img src="/img1.webp" alt="" className="w-120 h-100 " />
+          <img src="/img1.webp" alt="" className="w-120 h-100 cursor-pointer " />
         </div>
       </div>
     </div>
