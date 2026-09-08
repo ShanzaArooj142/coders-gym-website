@@ -65,7 +65,7 @@ const App = () => {
           <Blogs
            img={"https://codergym.netlify.app/3.webp"}
            heading={<h1>Your Health, Our Priority- <br />Stay Strong & Fit</h1>}
-           paragraph={<p>A healthy lifestyle starts with the right mindset. Join us and take the first <br /> step toward a stronger and happier you!</p>}
+           paragraph={<p>A healthy lifestyle starts with the right mindset. Join us and take the first  step toward a stronger and happier you!</p>}
            button="Explore More"
           
           />

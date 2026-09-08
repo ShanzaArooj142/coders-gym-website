@@ -52,7 +52,7 @@ const Footer = () => {
             <h3 className="text-white font-semibold text-xl tracking-wide mb-4">
               Resources
             </h3>
-            <ul className="flex flex-col gap-3 text-sm">
+            <ul className="flex flex-col gap-3 text-md">
               <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
               <li><a href="#t" className="hover:text-white transition-colors">Tutorials</a></li>
               <li><a href="#" className="hover:text-white transition-colors">FAQs</a></li>
