@@ -53,3 +53,22 @@ export const SlideRight = (delay) => {
 };
 
 
+export const Slide = (delay) => { 
+  return { 
+    hidden: { 
+      opacity: 0, 
+      y: 70, 
+      x: 0, 
+    }, 
+ 
+    visible: { 
+      opacity: 1, 
+      y: 0, 
+      x: 0, 
+      transition: { 
+        duration: 0.8, 
+        delay: delay, 
+      }, 
+    }, 
+  }; 
+}; 

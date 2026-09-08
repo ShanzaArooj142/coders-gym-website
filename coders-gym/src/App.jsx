@@ -17,7 +17,7 @@ const App = () => {
      <div className='border border-neutral-50 '>
           <Blogs
            img={"img2.webp"}
-           heading={<h1>Transform Your Body & <br />   Mind With Perfect Fitness</h1>}
+           heading={<h1>Transform Your Body &  <br /> Mind With Perfect Fitness</h1>}
            paragraph={<p>Achieve your fitness goals with expert guidance and premium <br /> equipment. Build strength, endurance, and confidence.</p>}
            button="Explore More"
           
@@ -64,9 +64,9 @@ const App = () => {
      <div className='border border-neutral-50 mt-10 bg-neutral-50 py-10'>
           <Blogs
            img={"https://codergym.netlify.app/3.webp"}
-           heading={<h1>Your Health, Our Priority- <br />Stay Strong & Fit</h1>}
+           heading={<h1>Your Health, Our Priority  -Stay Strong & Fit</h1>}
            paragraph={<p>A healthy lifestyle starts with the right mindset. Join us and take the first  step toward a stronger and happier you!</p>}
-           button="Explore More"
+           button="Learn More"
           
           />
      </div>
