@@ -19,7 +19,7 @@ const Home = () => {
           whileInView="visible"
          viewport={{ once: true }}
 
-          className="text-gray-900 font-bold text-6xl mt-40 leading-20">
+          className="text-gray-900 font-semibold text-6xl mt-40 leading-20 font-serif">
             Gym Gives you the <br />
             perfect <span className="text-[#FF8901]">Health</span>
           </motion.h1>
@@ -48,7 +48,7 @@ const Home = () => {
         </div>
 
         <div className="mt-40 mr-10">
-          <img src="/img1.webp" alt="" className="w-120 h-100 cursor-pointer " />
+          <img src="/img1.webp" alt="" className="w-130 h-98 cursor-pointer " />
         </div>
       </div>
     </div>
