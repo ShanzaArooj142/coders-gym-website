@@ -10,7 +10,7 @@ const Home = () => {
       className="h-180 w-full bg-cover bg-center bg-no-repeat  "
     >
       <Navbar />
-      <div className="mx-10 flex items-center justify-between">
+      <div className="mx-10 flex items-center justify-between overflow-hidden">
         <div className="flex flex-col gap-5">
 
           <motion.h1 

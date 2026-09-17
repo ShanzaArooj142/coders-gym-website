@@ -7,6 +7,10 @@ import Offers from './components/Offers'
 import Footer from './components/Footer'
 import { FaDumbbell,FaBicycle,FaRunning,FaHeartbeat } from "react-icons/fa";
 import Programs1 from './components/Programs1'
+import Offers1 from './components/Offers1'
+import { motion } from "framer-motion";
+import { FaQuoteLeft, FaStar } from 'react-icons/fa';
+import Offers2 from './components/Offers2'
 
 const App = () => {
   return (
@@ -70,7 +74,47 @@ const App = () => {
           
           />
      </div>
-     <Offers/>
+      
+
+      <Offers1/>
+
+    
+     
+      <div className='flex flex-row bg-[#0b1220] py-20 px-10 justify-center gap-8'>
+      <Offers
+        icons={<FaQuoteLeft />}
+        paragrapgh="This platform transformed my fitness journey. Highly recommended!"
+        icon2={
+          <p><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>}
+        img="https://codergym.netlify.app/t1.webp"
+        heading={<h1>John Doe</h1>}
+      />
+
+        <Offers
+        icons={<FaQuoteLeft />}
+        paragrapgh={<p>Amazing trainers and top-quality equipment. A game-changer!</p>}
+        icon2={
+          <p><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>}
+        img="https://codergym.netlify.app/t2.webp"
+        heading={<p>Sarah Johnson</p>}
+      />
+
+        <Offers
+        icons={<FaQuoteLeft />}
+        paragrapgh={<p>The workouts are challenging but so rewarding. Love it!</p>}
+        icon2={
+          <p><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>}
+        img="https://codergym.netlify.app/t3.webp"
+        heading={<h1>Michael Brown</h1>}
+      />
+    </div>
+
+     <Offers2/>
+     
+    
+        
+    
+     
      <Footer/>
     </div>
   )
